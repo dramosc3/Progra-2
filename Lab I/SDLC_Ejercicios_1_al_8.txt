@@ -1,0 +1,61 @@
+SDLC EJERCICIOS 1 AL 8
+
+Ejercicio 1
+Análisis: Solicitar nombre, edad y nota. Determinar mayoría de edad y aprobación.
+Diseño: Leer datos, evaluar con if y mostrar mensajes.
+Desarrollo: Implementación en Java con Scanner e if.
+Pruebas:
+1) Juan,20,80 -> Mayor, aprobó.
+2) Ana,16,55 -> Menor, reprobó.
+Conclusión: Funciona correctamente; puede mejorarse con validación.
+
+Ejercicio 2
+Análisis: Leer 10 notas y calcular promedio, mayor y menor.
+Diseño: Arreglo, ciclos y acumuladores.
+Desarrollo: Uso de arreglo double[].
+Pruebas: Notas variadas y notas iguales.
+Conclusión: Cumple el objetivo.
+
+Ejercicio 3
+Análisis: Crear menú para ingresar números, mostrar suma, promedio y salir.
+Diseño: do-while y switch.
+Desarrollo: Variables suma y contador.
+Pruebas: Con datos y sin datos.
+Conclusión: Menú funcional.
+
+Ejercicio 4
+Análisis: Validar entradas numéricas.
+Diseño: try-catch.
+Desarrollo: Captura InputMismatchException.
+Pruebas: Entrada numérica y texto.
+Conclusión: Evita errores por entradas inválidas.
+
+Ejercicio 5
+Análisis: Reutilizar funciones.
+Diseño: Métodos promedio() y aprobo().
+Desarrollo: Funciones estáticas.
+Pruebas: Promedios mayores y menores a 61.
+Conclusión: Código reutilizable.
+
+Ejercicio 6
+Análisis: Clase Estudiante con encapsulamiento.
+Diseño: Atributos privados y métodos públicos.
+Desarrollo: calcularPromedio() y mostrarInformacion().
+Pruebas: Diferentes arreglos de notas.
+Conclusión: Se aplica POO.
+
+Ejercicio 7
+Análisis: Herencia y polimorfismo.
+Diseño: Persona, Estudiante y Docente.
+Desarrollo: Sobrescritura de mostrarInformacion().
+Pruebas: Objetos de ambas clases hijas.
+Conclusión: Se demuestra herencia y polimorfismo.
+
+Ejercicio 8
+¿Cómo ayudó la IA? Refactorizó código, mejoró nombres y organización.
+¿Qué errores cometió? Algunas sugerencias requerían ajustes e importaciones.
+¿Qué precauciones? Revisar, probar y comprender el código.
+Prompts:
+- Refactoriza este código Java sin cambiar su funcionamiento.
+- Mejora la legibilidad y elimina código repetido.
+- Optimiza este programa usando buenas prácticas de POO.
