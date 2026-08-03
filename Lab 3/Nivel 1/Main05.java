@@ -1,18 +1,17 @@
 import java.util.Scanner;
 
-// Main del Ejercicio 4
-
-public class Main04 {
+public class Main05 {
 
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
 
-        Ejercicio04 ejercicio = new Ejercicio04();
+        Ejercicio05 ejercicio = new Ejercicio05();
 
-        System.out.println("Ejercicio 4 - Mostrar mensaje personalizado en excepcion");
+        System.out.println("Ejercicio 5 - Usar finally para mostrar mensaje final");
         System.out.println("==============================================");
         System.out.println("Ingrese dos numeros para realizar una division.");
+        System.out.println("Sin importar el resultado, el programa mostrara un mensaje final.");
         System.out.println();
 
         System.out.print("Ingrese el primer numero: ");

@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-// Main del Ejercicio 3
-
 public class Main03 {
 
     public static void main(String[] args) {
