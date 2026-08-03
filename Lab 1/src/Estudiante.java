@@ -15,6 +15,6 @@ public class Estudiante{
  }
  
  public void mostrarInformacion(){
-  System.out.println(nombre+" "+calcularPromedio());
+  System.out.println(nombre+" " + edad + " " + calcularPromedio());
  }
 }
