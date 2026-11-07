@@ -1,0 +1,12 @@
+@startuml
+
+actor Usuario
+participant "Sistema" as Sistema
+participant "Estudiante" as Estudiante
+
+Usuario -> Sistema : Consultar estudiante
+Sistema -> Estudiante : Obtener informacion()
+Estudiante --> Sistema : Datos del estudiante
+Sistema --> Usuario : Mostrar informacion
+
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+
+class Persona {
+    - nombre : String
+    - edad : int
+    + mostrarDatos() : void
+}
+
+class Estudiante {
+    - carnet : String
+    + estudiar() : void
+}
+
+class Curso {
+    - nombreCurso : String
+    - codigo : String
+    + mostrarCurso() : void
+}
+
+Estudiante --> Persona : hereda de
+Estudiante --> Curso : inscrito en
+
+@enduml

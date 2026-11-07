@@ -1,0 +1,30 @@
+@startuml
+
+class Vehiculo {
+    - marca : String
+    - modelo : String
+
+    + Vehiculo(marca : String, modelo : String)
+}
+
+class Carro {
+
+    + Carro(marca : String, modelo : String, numeroPuertas : int)
+}
+
+class Moto {
+
+    + Moto(marca : String, modelo : String, cilindrada : int)
+}
+
+class Main {
+    + main(args : String[]) : void
+}
+
+Vehiculo <|-- Carro
+Vehiculo <|-- Moto
+
+Main ..> Carro
+Main ..> Moto
+
+@enduml

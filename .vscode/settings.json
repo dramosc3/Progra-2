@@ -1,0 +1,8 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "1erParcial/Ejercicio2",
+        "1erParcial",
+        "2doParcial/SerieIII/src/main/java/com/laboratorio/universidad"
+    ]
+}
